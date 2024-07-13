@@ -36,3 +36,7 @@ repos:
           - "--recursive"
           - "--recursive-path=examples/"
           - "./"
+  - repo: https://gitlab.com/schmieder.matthias/python-kacl
+    rev: v0.5.1
+    hooks:
+      - id: kacl-verify
