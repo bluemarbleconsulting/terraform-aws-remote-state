@@ -1,5 +1,6 @@
 resource "aws_s3_bucket" "this" {
-  bucket_prefix = "tf-state-"
+  bucket        = var.bucket_name != null ? var.bucket_name : null
+  bucket_prefix = var.bucket_name == null ? "tf-state-" : null
 
   tags = var.default_tags
 
