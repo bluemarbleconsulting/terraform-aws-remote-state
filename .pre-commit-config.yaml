@@ -33,8 +33,6 @@ repos:
         args:
           - "--config=.config/.terraform-docs.yml"
           - "--lockfile=false"
-          - "--recursive"
-          - "--recursive-path=examples/"
           - "./"
   - repo: https://gitlab.com/schmieder.matthias/python-kacl
     rev: v0.5.1
