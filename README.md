@@ -29,7 +29,6 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_bucket_name"></a> [bucket\_name](#input\_bucket\_name) | Name of the S3 bucket to store Terraform state. Must be lowercase and less than or equal to 37 characters in length. | `string` | `"tf-state"` | no |
 | <a name="input_default_tags"></a> [default\_tags](#input\_default\_tags) | Key/value pairs for additional default tags to add to resources | `map(string)` | `{}` | no |
 
 #### Outputs
