@@ -2,7 +2,7 @@ resource "aws_s3_bucket" "this" {
   bucket        = var.bucket_name != null ? var.bucket_name : null
   bucket_prefix = var.bucket_name == null ? "tf-state-" : null
 
-  tags = var.default_tags
+  tags = var.tags
 
   lifecycle {
     prevent_destroy = true
@@ -48,5 +48,5 @@ resource "aws_dynamodb_table" "this" {
     type = "S"
   }
 
-  tags = var.default_tags
+  tags = var.tags
 }

@@ -30,7 +30,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_bucket_name"></a> [bucket\_name](#input\_bucket\_name) | S3 bucket name to use for the Terraform state files. Will use `tf-state` as a prefix, if not supplied | `string` | `null` | no |
-| <a name="input_default_tags"></a> [default\_tags](#input\_default\_tags) | Key/value pairs for additional default tags to add to resources | `map(string)` | `{}` | no |
+| <a name="input_tags"></a> [tags](#input\_tags) | Key/value pairs for additional default tags to add to resources | `map(string)` | `{}` | no |
 
 #### Outputs
 

@@ -4,7 +4,7 @@ variable "bucket_name" {
   type        = string
 }
 
-variable "default_tags" {
+variable "tags" {
   description = "Key/value pairs for additional default tags to add to resources"
   default     = {}
   type        = map(string)

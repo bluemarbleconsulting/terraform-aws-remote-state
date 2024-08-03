@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2024-08-03
+
+### Changed
+
+- Renamed `default_tags` variable to `tags`
+
+### Fixed
+
+- Removed the `aws` provider to avoid using an unexpected region
+
 ## [1.2.0] - 2024-07-13
 
 ### Changed
@@ -29,7 +39,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial commit
 
-[unreleased]: https://github.com/bluemarbleconsulting/terraform-aws-remote-state/compare/v1.2.0...HEAD
+[unreleased]: https://github.com/bluemarbleconsulting/terraform-aws-remote-state/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/bluemarbleconsulting/terraform-aws-remote-state/releases/tag/1.3.0
 [1.2.0]: https://github.com/bluemarbleconsulting/terraform-aws-remote-state/releases/tag/1.2.0
 [1.1.0]: https://github.com/bluemarbleconsulting/terraform-aws-remote-state/releases/tag/1.1.0
 [1.0.0]: https://github.com/bluemarbleconsulting/terraform-aws-remote-state/releases/tag/1.0.0
